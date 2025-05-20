@@ -6,5 +6,5 @@ commands:
   fly:
     description: Enable flying mode.
     usage: '/<command>'
-    permission: plugin.fly
+    permission: fly.use
 

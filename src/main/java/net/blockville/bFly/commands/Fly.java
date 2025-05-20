@@ -23,7 +23,7 @@ public class Fly implements CommandExecutor, Listener {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String string, String[] args) {
         if (sender instanceof Player p){
-            if (p.hasPermission("plugin.fly")) {
+            if (p.hasPermission("fly.use")) {
                 if (!p.getAllowFlight()) {
                     p.sendMessage(ChatColor.DARK_GRAY + "** " + ChatColor.AQUA + "Flight enabled" + ChatColor.DARK_GRAY + "!");
                     p.setAllowFlight(true);
