@@ -18,4 +18,4 @@
 
 - Drag & drop in plugins folder
 - Give permission fly.use
-    
+- Take flight with /fly
