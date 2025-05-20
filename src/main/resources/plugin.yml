@@ -1,0 +1,10 @@
+name: bFly
+version: '1.0-SNAPSHOT'
+main: net.blockville.bFly.bFly
+api-version: '1.21'
+commands:
+  fly:
+    description: Enable flying mode.
+    usage: '/<command>'
+    permission: plugin.fly
+
