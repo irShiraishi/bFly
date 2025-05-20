@@ -4,7 +4,7 @@
 
 
 
-## Simple flying plugin for Spigot/Bukkit/Paper servers.
+## Simple flying plugin for Spigot/Paper servers.
 
 
 ## Features
